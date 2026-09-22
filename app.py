@@ -1,11 +1,7 @@
 import streamlit as st
 
-a=st.number_input("Enter a no")
-b=st.number_input("Enter another number")
-if st.button("add"):
-	st.success(a+b)
-elif st.button("subtract"):
-	st.success(a-b)
-elif st.button("multiply"):
-	st.success(a*b)
+a=st.text_input("Enter your name")
+if st.button("display"):
+	st.success(a)
+
 
